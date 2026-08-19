@@ -1,0 +1,41 @@
+{
+  "name": "sxbs",
+  "version": "1.0.0",
+  "description": "A cross-platform command-line companion that adds the SXBS$ prompt and shorter commands.",
+  "type": "module",
+  "bin": {
+    "sxbs": "bin/sxbs.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md",
+    "LICENSE",
+    "VERSION"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node tests/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "shell",
+    "terminal",
+    "productivity",
+    "cross-platform",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xAboodPBx/sxbs"
+  },
+  "homepage": "https://github.com/xAboodPBx/sxbs",
+  "bugs": {
+    "url": "https://github.com/xAboodPBx/sxbs/issues"
+  }
+}
